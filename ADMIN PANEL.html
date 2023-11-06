@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PANEL.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Data page</title>
+</head>
+
+<body>
+
+    <div id="overlay">
+      <i class="fa-solid fa-arrows-rotate"></i>
+    </div>
+
+    <main>
+
+        <div id="table-section">
+
+            <form action="/">
+              <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Enter something" name="search-box" id="search-box" value="" />
+            </form>
+
+            <div id="table-wrapper">
+
+                <div id="table-headers">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="column1">Id</th>
+                                <th class="column2">FirstName</th>
+                                <th class="column3">LastName</th>
+                                <th class="column4">Email</th>
+                                <th class="column5">Phone</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+
+                <div id="table-data">
+                    <table>
+                        <tbody>
+                            <tr class="data-row">
+                                <td class="column1">28</td>
+                                <td class="column2">Larisa</td>
+                                <td class="column3">Llaneza</td>
+                                <td class="column4">SCallison@non.org</td>
+                                <td class="column5">(763)248-9034</td>
+                            </tr>
+                            <tr class="data-row">
+                                <td class="column1">835</td>
+                                <td class="column2">Marcellin</td>
+                                <td class="column3">Shrestha</td>
+                                <td class="column4">ARose@sagittis.ly</td>
+                                <td class="column5">(801)653-7547</td>
+                            </tr>
+                            <tr class="data-row active">
+                                <td class="column1">654</td>
+                                <td class="column2">Xiumei</td>
+                                <td class="column3">Jongco</td>
+                                <td class="column4">AKoprowski@vitae.ly</td>
+                                <td class="column5">(773)391-2969</td>
+                            </tr>
+                            <tr class="data-row">
+                                <td class="column1">70</td>
+                                <td class="column2">Tanya</td>
+                                <td class="column3">Gonshor</td>
+                                <td class="column4">PPervaiz@nullam.io</td>
+                                <td class="column5">(376)035-7184</td>
+                            </tr>
+                            <tr class="data-row">
+                                <td class="column1">943</td>
+                                <td class="column2">Sritharan</td>
+                                <td class="column3">Worden</td>
+                                <td class="column4">DLencowski@tortor.ly</td>
+                                <td class="column5">(714)779-2847</td>
+                            </tr>
+                            <tr class="data-row">
+                                <td class="column1">796</td>
+                                <td class="column2">Josephine</td>
+                                <td class="column3">Geouque</td>
+                                <td class="column4">KChristopher@amet.io</td>
+                                <td class="column5">(421)120-7963</td>
+                            </tr>
+                            <tr class="data-row">
+                                <td class="column1">339</td>
+                                <td class="column2">Yu</td>
+                                <td class="column3">Ferreira</td>
+                                <td class="column4">KHeppelmann@amet.com</td>
+                                <td class="column5">(101)002-6875</td>
+                            </tr>
+                            <tr class="data-row">
+                                <td class="column1">25</td>
+                                <td class="column2">Kathy</td>
+                                <td class="column3">Hansen</td>
+                                <td class="column4">MJacobs@lacus.io</td>
+                                <td class="column5">(984)584-1749</td>
+                            </tr>
+                            <tr class="data-row">
+                                <td class="column1">833</td>
+                                <td class="column2">Deitric</td>
+                                <td class="column3">Whitman</td>
+                                <td class="column4">JRamsey@tortor.io</td>
+                                <td class="column5">(301)556-8434</td>
+                            </tr>
+                            <tr class="data-row">
+                                <td class="column1">856</td>
+                                <td class="column2">Yeqing</td>
+                                <td class="column3">Elshoff</td>
+                                <td class="column4">RKimmel@tincidunt.com</td>
+                                <td class="column5">(230)488-3157</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Details box -->
+
+        <div id="info-wrapper">
+            <h1>Details</h1>
+            <p>Click on a table item to get detailed information</p>
+            <div id="info-content">
+                <div><b>User selected:</b> Marcellin Shrestha</div>
+                <div>
+                    <b>Description: </b>
+                    <textarea cols="50" rows="5" readonly>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quia nihil. Est, illum minima libero rerum, nihil distinctio placeat sint nam quae repellendus obcaecati delectus totam non odio. Sint, reprehenderit?
+                    </textarea>
+                </div>
+                <div><b>Address:</b> 6480 Nec Ct</div>
+                <div><b>City:</b> Dinwiddie</div>
+                <div><b>State:</b> NV</div>
+                <div><b>Zip:</b> 91295</div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="PANEL.js"></script>
+</body>
+
+</html>
